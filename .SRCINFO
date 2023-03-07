@@ -1,0 +1,19 @@
+pkgbase = device-sm8150-xiaomi-nabu
+	pkgver = 0.3
+	pkgrel = 1
+	install = sm8150-nabu.install
+	arch = aarch64
+	license = MIT
+	depends = linux-sm8150-nabu
+	depends = firmware-sm8150-xiaomi-nabu
+	depends = pd-mapper-git
+	depends = tqftpserv-git
+	depends = boot-android-common
+	source = machine-info
+	source = deviceinfo
+	source = xiaomi-nabu.conf
+	sha256sums = 7729d6a89258b470cadd48cfbc704bab7791501c53f45f50737dea6b441a3171
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = device-sm8150-xiaomi-nabu
